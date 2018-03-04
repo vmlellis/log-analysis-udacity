@@ -23,5 +23,5 @@ psql -d news -f newsdata.sql
 ## How to Run Project
 
 ```sh
-python2 newsdata.py
+python3 newsdata.py
 ```
