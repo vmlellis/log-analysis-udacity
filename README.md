@@ -10,8 +10,8 @@ The database in question has 3 tables;
 
 ## Pre-Requisite
 - Python 3
-- Make sure you have `newsdata.sql`, the SQL script file with all the data. It can be downloaded from the Udacity course page.
-- Run the following command to execute it in `news` database. You might have to create the database before-hand.
+- Make sure you have `newsdata.sql`. It can be downloaded from the Udacity course page.
+- Run the following command to execute it in `news` database.
 
 ```sh
 psql -d news -f newsdata.sql
