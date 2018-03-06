@@ -8,8 +8,16 @@ The database in question has 3 tables;
 - `authors`
 - `log`
 
-## Pre-Requisite
-- Python 3
+## Pre-Requisites
+- Linux
+  - You use the virtual machine from the course:
+    - Download Vagrant and Virtual Box.
+    - Download or clone fullstack-nanodegree-vm repository.
+    - Runs the vm (`vagrant up`).
+    - Runs the terminal (`vagrant ssh`).
+  - Or you can directly on Linux, but you have to create the vagrant user on database before: `postgres -c 'createuser -dRS vagrant'`.
+- Postgress.
+- Python 3.
 - Make sure you have `newsdata.sql`. It can be downloaded from the Udacity course page.
 - Run the following command to execute it in `news` database.
 

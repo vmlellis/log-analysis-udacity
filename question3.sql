@@ -1,7 +1,7 @@
 select * from
 (
   select
-    total.day as day,
+    TO_CHAR(total.day, 'Mon DD, YYYY') as day,
     round(errors.requests * 100 / cast(total.requests as numeric), 2) as perc
   from
     (
